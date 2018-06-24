@@ -1,0 +1,61 @@
+@media screen and (max-width: 1446px){
+
+}
+@media screen and (max-width: 1199px){
+    .index_case_video{
+        height: 300px;
+        text-align: center;
+        vertical-align: middle;
+        display: table-cell;
+        box-sizing: border-box;
+        padding-right: 20px;
+    }
+}
+@media screen and (max-width:967px){
+.index_about_tit{
+    padding-bottom: 100px;
+}
+    .index_about_con .index_about_con_txt{
+        max-width:none;
+    }
+    .index_news_list .index_news_list_tit{
+        padding-left: 106px;
+}
+}
+@media screen and (max-width: 767px){
+    .banner {
+        padding-bottom: 40px;
+        margin-top: 73px;
+    }
+    .index_product li p{
+        font-size: 14px;
+    }
+    .index_expert{
+        margin-top: 20px;
+    }
+    .index_case {
+        margin-top: 40px;
+    }
+    .index_case_video{
+        text-align: center;
+        display: block;
+    }
+
+}
+@media screen and (max-width: 479px){
+    .banner {
+        padding-bottom: 40px;
+    }
+    .index_product li p{
+        font-size: 12px;
+    }
+    .index_news_center .date{
+        width: 60px;
+        font-size: 12px;
+
+    }
+    .index_news_list .index_news_list_tit{
+        font-size: 12px;
+        padding-left: 75px;
+    }
+}
