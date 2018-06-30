@@ -308,6 +308,7 @@ display: inline-block;
 .cases_main .tabs a.active {
 	border: 1px solid #d71c1c;
 	color: #d71c1c;
+	margin-bottom: 20px;
 }
 
 .case_list li {
@@ -315,12 +316,19 @@ display: inline-block;
 	margin-bottom: 36px;
 }
 
-.case_list li a {
+.case_list li .case-logo {
 	display: block;
 	width: 90%;
 	border: 1px solid #f3f3f3;
+	height: 145px;
+	text-align: center;
+	margin: 0 auto;
 }
-
+.case_list li p{
+	vertical-align: middle;
+	text-align: center;
+	line-height: 145px;
+}
 .case_list li .name {
 	display: block;
 	width: 90%;
