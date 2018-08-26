@@ -1,0 +1,257 @@
+/*=============首页=================*/
+
+/*行业*/
+
+.main_wrap {
+	width: 100%;
+	height: 3860px;
+	background: #f2f3f7;
+}
+
+.white_bg {
+	height: 2880px;
+	background: #fff;
+}
+
+.green_bg {
+	height: 1900px;
+	padding-top: 50px;
+	box-sizing: border-box;
+	background: url(../images/green_bg.jpg) no-repeat 0 0;
+	background-size: 100% 100%;
+}
+
+.trade_module {
+	padding: 90px 100px 70px;
+	background-color: #fff;
+	box-shadow: 0 0 10px rgba(0, 0, 0, .4);
+	margin-bottom: 130px;
+}
+
+.trade_module .tit {
+	line-height: 58px;
+	margin-bottom: 40px;
+	text-align: center;
+	font-size: 30px;
+	color: #333;
+}
+
+.trade_module .info {
+	line-height: 24px;
+	color: #777;
+	text-align: center;
+	font-size: 16px;
+}
+
+.trade_module .pic_part {
+	margin-top: 110px;
+}
+
+.trade_module .item p {
+	height: 22px;
+	line-height: 22px;
+	font-size: 20px;
+	color: #3accef;
+	text-align: center;
+}
+
+.trade_module .pic_text img,
+.trade_module .text_pic p {
+	margin-bottom: 28px;
+}
+
+/*产品*/
+
+.goods_module {
+	margin-bottom: 130px;
+}
+
+.group_tit {
+	width: 520px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.group_tit h5 {
+	height: 60px;
+	line-height: 60px;
+	font-size: 36px;
+	color: #fff;
+	text-align: center;
+	letter-spacing: 4px;
+}
+
+.group_tit p.eng {
+	height: 40px;
+	line-height: 40px;
+	color: #333;
+	font-size: 16px;
+	text-align: center;
+}
+
+.group_tit:before {
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 65%;
+	width: 140px;
+	height: 1px;
+	background: #fff;
+}
+
+.group_tit:after {
+	content: '';
+	position: absolute;
+	right: 0;
+	top: 65%;
+	width: 140px;
+	height: 1px;
+	background: #fff;
+}
+
+.goods_pic {
+	margin-top: 50px;
+}
+
+.goods_pic li {
+	position: relative;
+	text-align: center;
+}
+
+.goods_pic li img {}
+
+.goods_pic li p {
+	position: absolute;
+	line-height: 40px;
+	color: #2c3032;
+	font-size: 20px;
+	letter-spacing: 2px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+/*案例*/
+
+.case_module {
+	position: relative;
+}
+
+.case_module .swiper-container {
+	width: 95%;
+	/*height: 200px;*/
+	overflow: hidden;
+	margin: 0 auto;
+}
+
+.case_module .swiper-slide {
+	text-align: center;
+	-webkit-flex-shrink: 0;
+	-ms-flex-negative: 0;
+	flex-shrink: 0;
+	width: 100%;
+	height: 100%;
+	position: relative;
+	-webkit-transition-property: -webkit-transform;
+	transition-property: -webkit-transform;
+	-o-transition-property: transform;
+	transition-property: transform;
+	transition-property: transform, -webkit-transform
+}
+
+.case_module .swiper-wrapper {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-transition-property: -webkit-transform;
+	transition-property: -webkit-transform;
+	-o-transition-property: transform;
+	transition-property: transform;
+	transition-property: transform, -webkit-transform;
+	-webkit-box-sizing: content-box;
+	box-sizing: content-box;
+}
+
+.case_module .swiper-button-next,
+.case_module .swiper-button-prev {
+	position: absolute;
+	top: 50%;
+	width: 87px;
+	height: 125px;
+	margin-top: -22px;
+	z-index: 10;
+	cursor: pointer;
+	background-size: 100% 100%;
+	background-position: center;
+	background-repeat: no-repeat
+}
+
+/*左右按钮*/
+
+.case_module .swiper-button-prev {
+	background-image: url("../images/prev.png");
+	left: 10px;
+	right: auto;
+}
+
+.case_module .swiper-button-next {
+	background-image: url("../images/next.png");
+	right: 10px;
+	left: auto
+}
+
+.case_module .swiper-pagination {
+	position: absolute;
+	text-align: center;
+	-webkit-transition: .3s opacity;
+	-o-transition: .3s opacity;
+	transition: .3s opacity;
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+	z-index: 10;
+}
+
+.case_module .swiper-pagination-bullet {
+	width: 40px;
+	height: 8px;
+	display: inline-block;
+	background: #dfdfdf;
+	margin: 0 20px;
+}
+
+.case_module .swiper-pagination-bullet-active {
+	background: #5dc07b
+}
+
+.case_module .slide_bot {}
+
+.case_module .slide_bot .tit {}
+
+.case_module .slide_bot .info {}
+
+.case_module .slide_bot {}
+
+/*新闻*/
+
+.news_module {
+	padding: 42px 40px;
+}
+
+.news_module .pic {}
+
+.news_module .mask {}
+
+.news_module .text {}
+
+.news_module .news_tit {}
+
+.news_module .news_tit .arrow {}
+
+.news_module .news_info {}
+
+/*=============首页结束=================*/
