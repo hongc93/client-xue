@@ -94,29 +94,6 @@
   .detail_header .mobileMenuBtn span {
     background: #8dc73f;
   }
-  .silder-main-img .info {
-    width: 600px;
-  }
-  .silder-main-img .info h3 {
-    font-size: 40px;
-  }
-  .silder-main-img .info p {
-    font-size: 20px;
-  }
-  .silder-main-img .info2 h3 {
-    font-size: 40px;
-  }
-  .silder-main-img .info2 p {
-    font-size: 20px;
-  }
-  .silder-main-img .info2 .sec {
-    margin-top: 8%;
-  }
-  .silder-main-img .info3 {
-    width: 400px;
-    left: 50%;
-    margin-left: -200px;
-  }
   /* detail */
   .detail_header .header_menu {
     background: rgba(255, 255, 255, 1);
@@ -171,36 +148,6 @@
   .header .mobileMenuBtn {
     top: 20px;
   }
-  .silder-main-img .info {
-    width: 600px;
-    margin-left: -300px;
-  }
-  .silder-main-img .info h3 {
-    font-size: 30px;
-  }
-  .silder-main-img .info p {
-    font-size: 18px;
-  }
-  .silder-main-img .info2 {
-    left: 12%;
-    top: 33%;
-  }
-  .silder-main-img .info2 h3 {
-    font-size: 30px;
-  }
-  .silder-main-img .info2 p {
-    font-size: 16px;
-  }
-  .silder-main-img .info2 .sec {
-    margin-top: 3%;
-    margin-left: 20%;
-  }
-  .silder-main-img .info3 {
-    width: 340px;
-    left: 50%;
-    margin-left: -200px;
-    top: 40%
-  }
   .footer-con .message {
     display: none;
   }
@@ -214,59 +161,6 @@
   .footer-info .map {
     padding-left: 50px;
     box-sizing: border-box;
-  }
-  /* index */
-  .trade_module {
-    padding: 40px 50px 30px;
-  }
-  .trade_module .tit {
-    line-height: 40px;
-    font-size: 24px;
-  }
-  .trade_module .info {
-    font-size: 14px;
-  }
-  .trade_module .pic_part {
-    margin-top: 80px;
-  }
-  .trade_module .text_pic p {
-    margin-bottom: 12px;
-  }
-  .trade_module .item p {
-    font-size: 16px;
-  }
-  .group_tit {
-    margin-bottom: 60px;
-  }
-  .goods_module {
-    margin-bottom: 80px;
-  }
-  .goods_pic li p {
-    line-height: 26px;
-    font-size: 18px;
-    font-weight: bold;
-  }
-  .goods_pic li {
-    padding: 0 10px;
-    box-sizing: border-box;
-  }
-  .news_module {
-    padding: 100px 40px 42px;
-  }
-  .news_module .pull-right {
-    margin-top: 30px;
-  }
-  .news_module .text {
-    font-size: 22px;
-  }
-  .news_module .mask {
-    height: 62px;
-  }
-  .news_module .news_tit {
-    font-size: 20px;
-  }
-  .news_module .pull-right li {
-    padding-bottom: 20px;
   }
   /* about us */
   .about {
@@ -360,35 +254,6 @@
   .page-tit p span {
     margin-bottom: 6px;
   }
-  .silder-main-img .info {
-    width: 300px;
-    margin-left: -150px;
-  }
-  .silder-main-img .info h3,
-  .silder-main-img .info2 h3 {
-    font-size: 20px;
-  }
-  .silder-main-img .info p,
-  .silder-main-img .info2 p {
-    font-size: 14px;
-    line-height: 30px;
-    letter-spacing: 0;
-    text-align: left;
-  }
-  .silder-main-img .info2 {
-    left: 12%;
-    top: 33%;
-  }
-  .silder-main-img .info2 .sec {
-    margin-top: 1%;
-    margin-left: 20%;
-  }
-  .silder-main-img .info3 {
-    width: 280px;
-    left: 50%;
-    margin-left: -140px;
-    top: 40%
-  }
   /* footer */
   .footer-con .map {
     margin: 0 auto;
@@ -401,81 +266,6 @@
   }
   .footer .footer-tit p {
     font-size: 16px;
-  }
-  .footer-info .map {
-    padding-left: 0;
-  }
-  /* index */
-  .trade_module {
-    padding: 40px 30px 30px;
-  }
-  .trade_module .tit {
-    line-height: 30px;
-    font-size: 16px;
-  }
-  .trade_module .info {
-    font-size: 12px;
-    height: 197px;
-    overflow: hidden;
-  }
-  .trade_module .item p {
-    font-size: 14px;
-  }
-  .trade_module .pic_part {
-    margin-top: 40px;
-  }
-  .group_tit h5 {
-    height: 30px;
-    line-height: 30px;
-  }
-  .group_tit {
-    width: auto;
-  }
-  .group_tit:before,
-  .group_tit:after {
-    width: 80px;
-  }
-  .goods_pic li {
-    margin-top: 20px;
-  }
-  .group_tit {
-    margin-bottom: 30px;
-  }
-  .trade_module .pic_text img,
-  .trade_module .text_pic p {
-    margin-bottom: 8px;
-  }
-  .news_module .container {
-    padding: 20px;
-  }
-  .news_module {
-    padding: 100px 40px 42px;
-  }
-  .news_module .pull-right {
-    margin-top: 20px;
-  }
-  .news_module .text {
-    font-size: 22px;
-  }
-  .news_module .mask {
-    height: 62px;
-  }
-  .news_module .news_tit {
-    font-size: 16px;
-  }
-  .news_module .pull-right li {
-    padding-bottom: 20px;
-  }
-  .news_module .news_info {
-    height: 60px;
-    overflow: hidden;
-  }
-  .news_module .text {
-    font-size: 16px;
-    bottom: 6px;
-  }
-  .news_module .mask {
-    height: 32px;
   }
   /* about us */
   .about h4 span {

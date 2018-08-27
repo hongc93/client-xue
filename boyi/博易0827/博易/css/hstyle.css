@@ -1,20 +1,17 @@
 ﻿.gray_bg {
   background: #f3f3f3 url(../images/bg.jpg) no-repeat top;
 }
-
-.txt-wrap {
+.txt-wrap{
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
 }
-
 .green-btn {
   display: inline-block;
   text-align: center;
   line-height: 36px;
   margin-top: 50px;
 }
-
 .bg-card {
   background: #fff;
   box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.10);
@@ -121,54 +118,6 @@
 .nav li.current a,
 .nav li:hover a {
   color: #fff;
-}
-
-.silder-main-img .info {
-  position: absolute;
-  top: 36%;
-  left: 50%;
-  color: #fff;
-  width: 790px;
-  margin-left: -380px;
-}
-
-.silder-main-img .info h3 {
-  font-size: 60px;
-}
-
-.silder-main-img .info p {
-  font-size: 26px;
-  line-height: 40px;
-  letter-spacing: 2px;
-  text-align: right;
-  text-transform: uppercase;
-}
-
-.silder-main-img .info2 {
-  width: 800px;
-  position: absolute;
-  top: 25%;
-  color: #fff;
-  left: 25%;
-}
-
-.silder-main-img .info3 {
-  width: 600px;
-  margin-left: -300px;
-}
-
-.silder-main-img .info2 h3 {
-  font-size: 50px;
-}
-
-.silder-main-img .info2 p {
-  font-size: 24px;
-  text-transform: uppercase;
-}
-
-.silder-main-img .info2 .sec {
-  margin-left: 40%;
-  margin-top: 10%;
 }
 
 .page-tit {
@@ -656,6 +605,8 @@
   text-align: right;
 }
 
+
+
 /* 技术支持 */
 
 .support li {
@@ -679,6 +630,7 @@
   border-radius: 5px;
   box-shadow: 0 0px 25px #ddd;
 }
+
 
 .support-list .info {
   padding-left: 30px;
@@ -736,66 +688,18 @@
   white-space: nowrap;
   overflow: hidden;
 }
-
 /*=======================solution first 解决方案1 ============================*/
-
-.solution-contain .info {
-  padding: 20px 25px;
-}
-
-.solution-contain .info div {
-  font-size: 12px;
-  line-height: 20px;
-  color: #333;
-  overflow: hidden;
-  height: 80px;
-}
-
-.solution-contain .btn {}
-
-.solution-contain .btn a:hover {}
-
+.solution-contain .info{padding: 20px 25px;} 
+.solution-contain .info div{font-size: 12px; line-height: 20px; color: #333; overflow: hidden; height: 80px;}
+.solution-contain .btn{}
+.solution-contain .btn a:hover{}
 /*=======================solution sec 解决方案2 ============================*/
-
-.solution-sec {}
-
-.solution-sec li {
-  position: relative;
-}
-
-.solution-sec .img {
-  position: relative;
-}
-
-.solution-sec .shade {
-  width: 50%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  background: rgba(0, 0, 0, 0.20)
-}
-
-.solution-sec .shade:hover {
-  background: rgba(0, 0, 0, 0.30)
-}
-
-.solution-sec .name {
-  position: absolute;
-  top: 35%;
-  width: 50%;
-  text-align: center;
-}
-
-.solution-sec .name p {
-  text-align: center;
-}
-
-.solution-sec .name a {
-  color: #fff;
-  font-size: 24px;
-}
-
-.solution-sec .name a:hover {
-  font-size: 25px;
-  transition: all 0.3;
-}
+.solution-sec{}
+.solution-sec li{ position: relative; }
+.solution-sec .img{position: relative;}
+.solution-sec .shade{ width: 50%; height: 100%; position: absolute; top: 0; background:rgba(0, 0, 0, 0.20)}
+.solution-sec .shade:hover{background:rgba(0, 0, 0, 0.30)}
+.solution-sec .name{position: absolute; top: 35%; width: 50%; text-align: center;}
+.solution-sec .name p{ text-align: center;}
+.solution-sec .name a{ color: #fff; font-size: 24px;}
+.solution-sec .name a:hover{  font-size: 25px; transition: all 0.3;}

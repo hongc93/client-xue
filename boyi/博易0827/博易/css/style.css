@@ -1,11 +1,5 @@
 /*=============首页=================*/
 
-.txt-wrap {
-	text-overflow: ellipsis;
-	white-space: nowrap;
-	overflow: hidden;
-}
-
 /*行业*/
 
 .main_wrap {
@@ -255,6 +249,8 @@
 	background: #5dc07b
 }
 
+
+
 .case_module .info li {
 	line-height: 30px;
 	border-bottom: 1px solid #eee;
@@ -337,9 +333,7 @@
 	padding-left: 20px;
 }
 
-.news_module .pic {
-	width: 100%;
-}
+.news_module .pic {}
 
 .news_module .mask {
 	height: 70px;
@@ -389,14 +383,9 @@
 
 .partner_module .partner_item {
 	float: left;
-	/* width: 14.28%; */
-	padding: 0 20px 60px;
+	width: 14.28%;
+	padding: 0 25px 60px;
 	box-sizing: border-box;
-}
-
-.partner_module .container {
-	height: 370px;
-	overflow: hidden;
 }
 
 /*=============首页结束=================*/
