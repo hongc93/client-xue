@@ -2,6 +2,12 @@
   background: #f3f3f3 url(../images/bg.jpg) no-repeat top;
 }
 
+.index_header {
+  position: absolute;
+  z-index: 9;
+  width: 100%;
+}
+
 .logo {
   padding-top: 10px;
   padding-left: 40px;
@@ -125,7 +131,7 @@
 }
 
 .page-tit p span {
-  height: 1;
+  height: 1px;
   width: 100px;
   background: #fff;
 }
@@ -329,6 +335,21 @@
 
 /* 详情页 */
 
+.detail_header .nav {
+  padding-top: 25px;
+}
+
+.detail_header .nav li.current,
+.detail_header .nav li:hover {
+  color: #8dc73f;
+  background: url(../images/nav02.png) no-repeat top center;
+}
+
+.detail_header .nav li.current a,
+.detail_header .nav li:hover a {
+  color: #8dc73f;
+}
+
 .detail-wrapper {
   background: #f3f3f3;
   width: 100%;
@@ -338,6 +359,7 @@
   max-width: 1200px;
   margin: 0 auto;
   padding-bottom: 130px;
+  padding-top: 80px;
 }
 
 .news-detail h3 {
@@ -403,11 +425,13 @@
 
 .join-us .invite em:first-child {
   background: url(../images/join01.png) no-repeat left top;
+  background-size: contain;
 }
 
 .join-us .invite em:last-child {
   margin-bottom: -20px;
   background: url(../images/join02.png) no-repeat right bottom;
+  background-size: contain;
 }
 
 .join-us .invite p {
