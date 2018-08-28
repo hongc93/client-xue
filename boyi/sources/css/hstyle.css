@@ -14,6 +14,10 @@
   line-height: 36px;
   margin-top: 50px;
 }
+.green-btn:hover{
+  font-size: 16px;
+  box-shadow: 0 5px 25px #18928a;
+}
 
 .bg-card {
   background: #fff;
@@ -345,7 +349,8 @@
 .support,
 .about,
 .newslist,
-.success {
+.success,
+.solution-contain {
   max-width: 1200px;
   margin: 0 auto;
   margin-bottom: 130px;
@@ -742,18 +747,27 @@
 .solution-contain .info {
   padding: 20px 25px;
 }
-
+.solution-contain .img img{
+  width: 100%;
+}
 .solution-contain .info div {
   font-size: 12px;
   line-height: 20px;
   color: #333;
   overflow: hidden;
-  height: 80px;
+  height: 140px;
+  text-align: justify;
+}
+.solution-contain .info h3{
+  color:#31b9b1;
+  font-size: 20px;
+  line-height: 40px;
+  padding-bottom: 15;
 }
 
-.solution-contain .btn {}
+.solution-contain .btn {text-align: center; padding-bottom: 30px;}
+.solution-contain .btn .green-btn{margin-top: 30px;}
 
-.solution-contain .btn a:hover {}
 
 /*=======================solution sec 解决方案2 ============================*/
 

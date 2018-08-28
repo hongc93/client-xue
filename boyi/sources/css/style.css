@@ -152,7 +152,7 @@
 	transform: translate(-50%, -50%);
 }
 
-/*案例*/
+/*成功案例*/
 
 .case_module {
 	position: relative;
@@ -164,7 +164,9 @@
 	overflow: hidden;
 	margin: 0 auto;
 }
-
+.small-case{
+	display: none;
+}
 .case_module .swiper-slide {
 	padding-bottom: 30px;
 	padding-left: 30px;
