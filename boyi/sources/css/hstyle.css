@@ -14,7 +14,8 @@
   line-height: 36px;
   margin-top: 50px;
 }
-.green-btn:hover{
+
+.green-btn:hover {
   font-size: 16px;
   box-shadow: 0 5px 25px #18928a;
 }
@@ -350,7 +351,8 @@
 .about,
 .newslist,
 .success,
-.solution-contain {
+.solution-contain,
+.solution-sec {
   max-width: 1200px;
   margin: 0 auto;
   margin-bottom: 130px;
@@ -744,30 +746,44 @@
 
 /*=======================solution first 解决方案1 ============================*/
 
+.solution-contain li {
+  padding: 0 20px;
+  box-sizing: border-box;
+  margin-bottom: 35px;
+}
+
 .solution-contain .info {
   padding: 20px 25px;
 }
-.solution-contain .img img{
+
+.solution-contain .img img {
   width: 100%;
 }
+
 .solution-contain .info div {
-  font-size: 12px;
-  line-height: 20px;
+  font-size: 14px;
+  line-height: 24px;
   color: #333;
   overflow: hidden;
   height: 140px;
   text-align: justify;
 }
-.solution-contain .info h3{
-  color:#31b9b1;
+
+.solution-contain .info h3 {
+  color: #31b9b1;
   font-size: 20px;
   line-height: 40px;
-  padding-bottom: 15;
+  padding-bottom: 15px;
 }
 
-.solution-contain .btn {text-align: center; padding-bottom: 30px;}
-.solution-contain .btn .green-btn{margin-top: 30px;}
+.solution-contain .btn {
+  text-align: center;
+  padding-bottom: 50px;
+}
 
+.solution-contain .btn .green-btn {
+  margin-top: 30px;
+}
 
 /*=======================solution sec 解决方案2 ============================*/
 
@@ -775,10 +791,17 @@
 
 .solution-sec li {
   position: relative;
+  box-sizing: border-box;
+  padding: 0 20px;
+  margin-bottom: 40px;
 }
 
 .solution-sec .img {
   position: relative;
+}
+
+.solution-sec .img img {
+  width: 100%;
 }
 
 .solution-sec .shade {
@@ -786,16 +809,17 @@
   height: 100%;
   position: absolute;
   top: 0;
-  background: rgba(0, 0, 0, 0.20)
+  background: rgba(0, 0, 0, 0.30)
 }
 
+.solution-sec .shadehover,
 .solution-sec .shade:hover {
-  background: rgba(0, 0, 0, 0.30)
+  background: rgba(0, 0, 0, 0.50)
 }
 
 .solution-sec .name {
   position: absolute;
-  top: 35%;
+  top: 40%;
   width: 50%;
   text-align: center;
 }
@@ -810,6 +834,6 @@
 }
 
 .solution-sec .name a:hover {
-  font-size: 25px;
-  transition: all 0.3;
+  /* font-size: 25px;
+  transition: all 0.3; */
 }
