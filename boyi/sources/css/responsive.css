@@ -159,7 +159,12 @@
     padding: 0 20px;
     box-sizing: border-box;
   }
-
+  .case_module .info{
+    padding: 14px 20px 40px 20px;
+  }
+  .case_module .info .tit{
+    font-size: 16px;
+  }
   /* detail */
   .detail_header .header_menu {
     background: rgba(255, 255, 255, 1);

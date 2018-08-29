@@ -23,7 +23,7 @@
 </head>
 
 <body>
-	<div class="rowFluid header detail_header index_header">
+	<div class="rowFluid header detail_header index_header menu">
 		<div class="span2">
 			<div class="logo">
 				<a href="/" title="返回首页">
@@ -39,7 +39,7 @@
 			</div>
 			<div class="mobileMenuBtn_shad"></div>
 			<div class="header_menu">
-				<div class="nav header_menu menu">
+				<div class="nav header_menu ">
 					<ul id="menu">
 						<li>
 							<a href="#" title="">首页</a>
@@ -274,7 +274,52 @@
 						</div>
 						<div class="small-case">
 							<ul class="rowFluid">
-								<li class="span4 col-xm-6  col-xs-12">
+								<li class="span4 col-xm-6  col-sm-12">
+									<div class="bg-card small-casecon">
+										<img src="images/case_01.png" />
+
+										<div class="info">
+											<p class="tit">长春顶置光源型人工气候室</p>
+											<ul>
+												<li>
+													<span class="value">云南曲靖 </span>城市</li>
+												<li>
+													<span class="value">蓝莓</span>产品</li>
+											</ul>
+										</div>
+									</div>
+								</li>
+								<li class="span4 col-xm-6  col-sm-12">
+									<div class="bg-card small-casecon">
+										<img src="images/case_01.png" />
+
+										<div class="info">
+											<p class="tit">长春顶置光源型人工气候室</p>
+											<ul>
+												<li>
+													<span class="value">云南曲靖 </span>城市</li>
+												<li>
+													<span class="value">蓝莓</span>产品</li>
+											</ul>
+										</div>
+									</div>
+								</li>
+								<li class="span4 col-xm-6  col-sm-12">
+									<div class="bg-card small-casecon">
+										<img src="images/case_01.png" />
+
+										<div class="info">
+											<p class="tit">长春顶置光源型人工气候室</p>
+											<ul>
+												<li>
+													<span class="value">云南曲靖 </span>城市</li>
+												<li>
+													<span class="value">蓝莓</span>产品</li>
+											</ul>
+										</div>
+									</div>
+								</li>
+								<li class="span4 col-xm-6  col-sm-12">
 									<div class="bg-card small-casecon">
 										<img src="images/case_01.png" />
 
@@ -499,9 +544,11 @@
 
 				function checkMenu() {
 					if (fixMenu) {
-						$(".menu").css("position", "fixed");
+						$(".menu").css({"position":"fixed","background":"#fff"});
+						// $('.header .mobileMenuBtn').css("position","fixed")
 					} else {
-						$(".menu").css("position", "relative");
+						$(".menu").css({"position": "absolute","background":"transparent"});
+						// $('.header .mobileMenuBtn').css("position","relative")
 					}
 				}
 				// end 首页导航跟随
