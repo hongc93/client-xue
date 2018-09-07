@@ -487,40 +487,17 @@
     margin-bottom: 6px;
   }
 
-  .silder-main-img .info {
-    width: 300px;
-    margin-left: -150px;
-  }
-
-  .silder-main-img .info h3,
-  .silder-main-img .info2 h3 {
-    font-size: 20px;
-  }
-
-  .silder-main-img .info p,
-  .silder-main-img .info2 p {
-    font-size: 14px;
-    line-height: 30px;
-    letter-spacing: 0;
-    text-align: left;
-  }
-
-  .silder-main-img .info2 {
-    left: 12%;
-    top: 33%;
-  }
-
-  .silder-main-img .info2 .sec {
-    margin-top: 1%;
-    margin-left: 20%;
-  }
-
-  .silder-main-img .info3 {
-    width: 280px;
-    left: 50%;
-    margin-left: -140px;
-    top: 40%
-  }
+	.projector .info_02 p{
+    margin-top:0;
+	}
+	 .projector .info_02 .fir{
+	 	  margin-left: -8px;
+      margin-top: 20px;
+	 }
+  .projector .info_03 h3 {
+    margin-left: -55px;
+    margin-top: 15px;
+	}
 
   /* footer */
   .footer-con .map {

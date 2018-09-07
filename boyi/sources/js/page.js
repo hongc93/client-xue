@@ -28,3 +28,15 @@ $(".solution-sec .name")
       .siblings(".shade")
       .removeClass("shadehover");
   });
+  
+  if (!(/msie [6|7|8|9]/i.test(navigator.userAgent))) {
+		var wow = new WOW({
+			boxClass: 'wow',
+			animateClass: 'animated',
+			offset: 150,
+			mobile: true,
+			live: true
+		});
+
+		wow.init();
+	};
