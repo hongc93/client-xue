@@ -60,24 +60,31 @@
 	color: #3accef;
 	text-align: center;
 }
-.trade_module .color_pic{
+
+.trade_module .color_pic {
 	display: none;
 }
-.trade_module .default_pic{
+
+.trade_module .default_pic {
 	display: block;
 }
-.trade_module .pic_text:hover .color_pic{
+
+.trade_module .pic_text:hover .color_pic {
 	display: block;
 }
-.trade_module .pic_text:hover .default_pic{
+
+.trade_module .pic_text:hover .default_pic {
 	display: none;
 }
-.trade_module .text_pic:hover .color_pic{
+
+.trade_module .text_pic:hover .color_pic {
 	display: block;
 }
-.trade_module .text_pic:hover .default_pic{
+
+.trade_module .text_pic:hover .default_pic {
 	display: none;
 }
+
 .trade_module .pic_text img,
 .trade_module .text_pic p {
 	margin-bottom: 28px;
@@ -85,7 +92,7 @@
 
 /*产品*/
 .goods_module {
-	margin-bottom: 130px;
+	margin-bottom: 110px;
 }
 
 .group_tit {
@@ -180,9 +187,11 @@
 	overflow: hidden;
 	margin: 0 auto;
 }
-.small-case{
+
+.small-case {
 	display: none;
 }
+
 .case_module .swiper-slide {
 	padding-bottom: 30px;
 	padding-left: 30px;
@@ -421,121 +430,147 @@
 /*轮播*/
 
 .example-animation .info h3 {
-    font-size: 60px;
+	font-size: 60px;
 }
-.example-animation .info p{
+
+.example-animation .info p {
 	font-size: 26px;
 	line-height: 40px;
 	letter-spacing: 2px;
-	text-align:right;
+	text-align: right;
 	text-transform: uppercase;
 }
 
-.example-animation .info2 h3{
+.example-animation .info2 h3 {
 	font-size: 50px;
 }
-.example-animation .info2 p{
+
+.example-animation .info2 p {
 	font-size: 24px;
 	text-transform: uppercase;
 }
-.example-animation .info3 h3{
+
+.example-animation .info3 h3 {
 	font-size: 60px;
 }
 
 
- @media screen and (max-width:1199px) {
- 	.example-animation .info p{
-		margin-top:30px;
+@media screen and (max-width:1199px) {
+	.example-animation .info p {
+		margin-top: 30px;
 		margin-left: -170px;
-		font-size:24px;
+		font-size: 24px;
 	}
-	.example-animation .info h3{
+
+	.example-animation .info h3 {
 		margin-left: -120px;
-		font-size:50px;
+		font-size: 50px;
 	}
-	.example-animation .info_02 p{
-		margin-top:0;
+
+	.example-animation .info_02 p {
+		margin-top: 0;
 		margin-left: -20px;
 	}
-	.example-animation .info_02 h3{
+
+	.example-animation .info_02 h3 {
 		margin-left: -20px;
 	}
-	.example-animation .sec h3{
-		margin-top:40px;
+
+	.example-animation .sec h3 {
+		margin-top: 40px;
 	}
- }
- @media screen and (max-width:960px) {
- 	.example-animation .info p{
-		margin-top:30px;
+}
+
+@media screen and (max-width:960px) {
+	.example-animation .info p {
+		margin-top: 30px;
 		margin-left: -130px;
-		font-size:20px;
+		font-size: 20px;
 	}
-	.example-animation .info h3{
+
+	.example-animation .info h3 {
 		margin-left: -80px;
-		font-size:40px;
+		font-size: 40px;
 	}
-	.example-animation .info_02 p{
-		margin-top:0;
+
+	.example-animation .info_02 p {
+		margin-top: 0;
 		margin-left: -20px;
 	}
-	.example-animation .info_02 h3{
+
+	.example-animation .info_02 h3 {
 		margin-left: -20px;
 	}
-	.example-animation .sec h3{
-		margin-top:40px;
+
+	.example-animation .sec h3 {
+		margin-top: 40px;
 	}
- }
- @media screen and (max-width:767px){
- 	.projector .info h3{
-	    font-size: 30px;
-	    margin-left: -38px;
+}
+
+@media screen and (max-width:767px) {
+	.projector .info h3 {
+		font-size: 30px;
+		margin-left: -38px;
 	}
+
 	.projector .info p {
-    	font-size: 18px;
-    	line-height: 26px;
-	    letter-spacing: 0;
-	    text-align: left;
-	    margin-left: -61px;
-	    margin-top: 20px;
-    }
-    .projector .info_02 .sec {
-    	margin-left: 18px;
-    }
-    .example-animation .sec h3 {
-	    margin-top: 20px;
+		font-size: 18px;
+		line-height: 26px;
+		letter-spacing: 0;
+		text-align: left;
+		margin-left: -61px;
+		margin-top: 20px;
 	}
-    .projector .info_02 p {
-    	margin-left: -38px;
-    }
-    .projector .info_03 p {
-    	margin-left: -92px;
-    	margin-top:35px;
-    }
- }
- @media screen and (max-width:560px) {
- 	.projector .info h3{
-	    font-size: 24px;
+
+	.projector .info_02 .sec {
+		margin-left: 18px;
 	}
-	.projector .info p,.projector .info_03 p{
-    	font-size: 14px;
-    	margin-top:15px;
-    }
-    .inner .nav-link{
-    	padding:5px;
-    	width:0!important;
-    	border-radius: 50%;
-    }
- }
- @media screen and (max-width:480px) {
- 	.projector .info h3{
-	    font-size: 20px;
+
+	.example-animation .sec h3 {
+		margin-top: 20px;
 	}
- 	.projector .info_02 .sec{
- 		margin-top:30px;
- 	}
-	.projector .info p,.projector .info_03 p{
-    	margin-top:20px;
-    	margin-left: -80px;
-    }
-	
- }
+
+	.projector .info_02 p {
+		margin-left: -38px;
+	}
+
+	.projector .info_03 p {
+		margin-left: -92px;
+		margin-top: 35px;
+	}
+}
+
+@media screen and (max-width:560px) {
+	.projector .info h3 {
+		font-size: 24px;
+	}
+
+	.projector .info p,
+	.projector .info_03 p {
+		font-size: 14px;
+		margin-top: 15px;
+	}
+
+	.inner .nav-link {
+		padding: 5px;
+		width: 0 !important;
+		border-radius: 50%;
+	}
+}
+
+@media screen and (max-width:480px) {
+	.projector .info h3 {
+		font-size: 20px;
+	}
+
+	.projector .info_02 .sec {
+		margin-top: 30px;
+	}
+
+	.projector .info p,
+	.projector .info_03 p {
+		margin-top: 20px;
+		margin-left: -80px;
+	}
+
+}
