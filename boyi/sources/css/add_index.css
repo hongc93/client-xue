@@ -86,7 +86,7 @@
 
 .trade_module .pos_left_bot {
   left: 126px;
-  bottom: -48px;
+  bottom: -16px;
   z-index: 2;
 }
 
@@ -111,6 +111,192 @@
   top: 58px;
 }
 
+/* 20181009 */
+.swiper-container {
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  direction: ltr;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  backface-visibility: hidden;
+  /* Fix of Webkit flickering */
+  z-index: 1;
+}
+
+.swiper-wrapper {
+  position: relative;
+  width: 100%;
+  -webkit-transition-property: -webkit-transform, left, top;
+  -webkit-transition-duration: 0s;
+  -webkit-transform: translate3d(0px, 0, 0);
+  -webkit-transition-timing-function: ease;
+  -moz-transition-property: -moz-transform, left, top;
+  -moz-transition-duration: 0s;
+  -moz-transform: translate3d(0px, 0, 0);
+  -moz-transition-timing-function: ease;
+  -o-transition-property: -o-transform, left, top;
+  -o-transition-duration: 0s;
+  -o-transform: translate3d(0px, 0, 0);
+  -o-transition-timing-function: ease;
+  -o-transform: translate(0px, 0px);
+  -ms-transition-property: -ms-transform, left, top;
+  -ms-transition-duration: 0s;
+  -ms-transform: translate3d(0px, 0, 0);
+  -ms-transition-timing-function: ease;
+  transition-property: transform, left, top;
+  transition-duration: 0s;
+  transform: translate3d(0px, 0, 0);
+  transition-timing-function: ease;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+.swiper-free-mode>.swiper-wrapper {
+  -webkit-transition-timing-function: ease-out;
+  -moz-transition-timing-function: ease-out;
+  -ms-transition-timing-function: ease-out;
+  -o-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+  margin: 0 auto;
+}
+
+.swiper-slide {
+  float: left;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+/* IE10 Windows Phone 8 Fixes */
+.swiper-wp8-horizontal {
+  -ms-touch-action: pan-y;
+}
+
+.swiper-wp8-vertical {
+  -ms-touch-action: pan-x;
+}
+
+.green_bg {
+  background: linear-gradient(135deg, #89c644, #36baab)
+}
+
+.index-about-more {
+  width: 210px;
+  height: 45px;
+  background: linear-gradient(135deg, #8dc73f, #31b9b1);
+  border-radius: 20px;
+  margin: 50px auto 0;
+  box-shadow: 0px 10px 25px #a1d2cf
+}
+
+.index-about-more a {
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+  line-height: 45px;
+  color: #fff;
+  font-size: 16px;
+}
+
+/* 20181010 */
+.index_menu .logo img {
+  width: 80%
+}
+
+.index_menu {
+  min-height: 86px;
+}
+
+.index_menu li a {
+  color: #fff;
+}
+
+.index_menu .nav li.current,
+.index_menu .nav li:hover {
+  background: url(../images/nav.png) no-repeat top center;
+
+}
+
+.index_menu .nav li.current a,
+.index_menu .nav li:hover a {
+  color: #fff;
+}
+
+.banner03 {
+  position: relative;
+  background: url('../images/banner-bg.png') center center no-repeat;
+  background-size: contain;
+  margin-bottom: 30px;
+}
+
+.banner03 .swiper-slide {
+  text-align: center;
+  color: #fff;
+}
+
+.banner03 h3 {
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.banner03 .info {
+  font-size: 18px;
+}
+
+.banner03 .info::before,
+.banner03 .info::after {
+  content: '';
+  display: inline-block;
+  width: 80px;
+  height: 1px;
+  background: #fff;
+  margin-bottom: 5px;
+  margin-right: 10px;
+}
+
+.banner03 .info::after {
+  margin-left: 10px;
+}
+
+.banner03 .img {
+  margin-top: 30px;
+}
+
+.banner03 .swiper-pagination-bullet-active {
+  background: #fff;
+}
+
+.banner03 .swiper-pagination-bullet {
+  height: 12px;
+  width: 12px;
+}
+
+.case_module h5 {
+  color: #35baac;
+}
+
+.case_module .group_tit:before,
+.case_module .group_tit::after {
+  background: #b8b8b8;
+}
+
+@media screen and (max-width:1199px) {
+  .index_menu .mobileMenuBtn span {
+    background: #fff;
+  }
+
+  .index_menu {
+    background: #75c35e;
+  }
+
+  .index_menu .logo img {
+    width: 100%
+  }
+}
 
 @media screen and (max-width:1100px) {
   .trade_module .pic_part {
@@ -165,6 +351,24 @@
 
   .trade_module .pic_part {
     margin-top: 0;
+  }
+
+  /* 20181010 */
+  .index_menu {
+    min-height: 60px;
+  }
+
+  .banner03 h3 {
+    font-size: 40px;
+    font-weight: bold;
+  }
+
+  .banner03 .info {
+    font-size: 16px;
+  }
+
+  .index-about-more {
+    margin-bottom: 30px;
   }
 }
 
