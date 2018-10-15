@@ -352,6 +352,9 @@
 }
 
 @media screen and (max-width:1199px) {
+	.index_menu span2{
+		width: 30%;
+	}
 	.index_menu .header_menu{
 		background: rgba(115, 195, 100, .8);
 		
@@ -444,6 +447,9 @@
 }
 
 @media screen and (max-width: 767px) {
+	.index_menu .nav li.current, .index_menu .nav li:hover {
+    background: url(../images/nav.png) no-repeat 14% center;
+}
   .trade_module .info {
     height: 120px;
   }
@@ -504,6 +510,9 @@
 }
 
 @media screen and (max-width:490px) {
+	.index_menu span2{
+		width: 30%;
+	}
   .green_bg {
     padding-top: 100px;
   }
