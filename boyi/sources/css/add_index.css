@@ -352,6 +352,10 @@
 }
 
 @media screen and (max-width:1199px) {
+	.index_menu .header_menu{
+		background: rgba(115, 195, 100, .8);
+		
+	}
   .index_menu .mobileMenuBtn span {
     background: #fff;
   }
