@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <title>新闻列表</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <meta name="format-detection" content="telephone=yes">
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+  <meta name="author" content="order by Baidu.com" />
+  <meta name="renderer" content="webkit">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/hstyle.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  <style>
+  </style>
+</head>
+
+<body class="gray_bg">
+  <div class="page-tit">
+    <p>BOYI news</p>
+    <p>
+      <span></span>
+      <em>博易新闻</em>
+      <span></span>
+    </p>
+  </div>
+  <div class="wrapper">
+    <div class="newslist-title">
+      <ul class="rowFluid ">
+        <li class="current">
+          <a href="#">查看全部</a>
+        </li>
+        <li>
+          <a href="#">公司动态</a>
+        </li>
+        <li>
+          <a href="#">业界资讯</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="newslist">
+      <ul class="news-list">
+        <!-- <li class="rowFluid">
+              <div class="img span5 col-sm-5">
+                <div>
+                  <img src="images/news_01.jpg" alt="人工气候室的应用领">
+                </div>
+                <div class="shade"></div>
+                <p>人工气候室的应用领域</p>
+              </div>
+              <div class="intro span7 col-sm-7">
+                <h3>人工气候室的应用领域</h3>
+                <p>人工气候室是模拟自然环境的小能手，在人工气候室中，人们通过设置，完全可以模拟出于外界环境全然不同的一种环境条件，比如说外面是冬天，人工气候室中却可以是夏天，因此在进行植物发芽、生长研究的时候，科研人员完全可以不用理会当前我们所处的地域还有环境，利用人工气候室调节所需要的环境，就可以马上开展研究试验了，非常方便和高效。
+                </p>
+                <div class="btn">
+                  <a href="#" class="green-btn">查看详情</a>
+                </div>
+              </div>
+            </li> -->
+      </ul>
+      <div class="bottom">加载更多...</div>
+    </div>
+  </div>
+  <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+  <script type='text/javascript'>
+    var end = false;
+    page = 0;
+    $(function () {
+      callNext()
+      var $document = $(document); //缓存一下$(document)
+      $(window).scroll(function () {
+        var $this = $(this),
+          scrollTop = $this.scrollTop(),
+          scrollHeight = $document.height(),
+          windowHeight = $this.height();
+        if (scrollTop + windowHeight >= scrollHeight) {
+          setTimeout(callNext, 600);
+        }
+      });
+
+      function callNext() {
+        getData("data/data", {
+          no: ++page,
+          size: 5
+        }, function (item) {
+          console.info("item", item);
+          var _li = "<li class=\"rowFluid\">" +
+            "<div class=\"img span5 col-sm-5\">" +
+            " <div><img src=\"" + item.img + "\" alt=\"" + item.imgTitle + "\"/></div>" +
+            " <div class=\"shade\"></div>" +
+            " <p>" + item.title + "</p>" +
+            "</div>" +
+            "<div class=\"intro span7 col-sm-7\">" +
+            " <h3>" + item.title + "</h3>" +
+            " <p>" + item.desc + "</p>" +
+            " <div class=\"btn\">" +
+            "   <a href=\"" + item.url + "\" class=\"green-btn\">查看详情</a>" +
+            " </div>" +
+            "</div>" +
+            "</li>";
+          $(_li).appendTo($(".news-list"));
+        })
+      }
+    });
+
+    function getData(url, param, call) {
+      if (!end) {
+        $.ajax({
+          url: url + param.no + ".ajax",
+          type: "GET",
+          async: true,
+          cache: false,
+          data: param,
+          dataType: "json",
+          timeout: 0,
+          success: function (data, code) {
+            if (data.totalPage <= page) {
+              end = true;
+            }
+            if (data.datas != null) {
+              console.info(data);
+              $.each(data.datas, function (index, item) {
+                call(item);
+              });
+            }
+          },
+          error: function (req, code, msg) {
+            console.error(code);
+          }
+        });
+      } else {
+        $(".bottom").text("没有数据了");
+      }
+
+    }
+  </script>
+</body>
+
+</html>
