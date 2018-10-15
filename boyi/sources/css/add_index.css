@@ -510,7 +510,7 @@
 }
 
 @media screen and (max-width:490px) {
-	.index_menu span2{
+	.detail_header span2{
 		width: 30%;
 	}
   .green_bg {
