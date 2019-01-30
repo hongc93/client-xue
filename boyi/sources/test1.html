@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    ul>li {
+      float: left;
+      width: 60px;
+      line-height: 26px;
+      background: #eeeeee;
+      list-style: none;
+      margin: 0 5px;
+      text-align: center;
+    }
+
+    ul>li:hover {
+      cursor: pointer;
+      background: #ddd
+    }
+  </style>
+</head>
+
+<body>
+  <div id="con" style="width: 380px;height: 130px; border: 1px solid #ddd;text-align: center; line-height: 130px; color: red;font-size: 26px">1</div>
+  <ul id="toggleBtn" style="overflow: hidden; padding:0;">
+    <li style="display: none">1</li>
+    <li>2</li>
+    <li>3</li>
+    <li>4</li>
+    <li>5</li>
+    <li>6</li>
+  </ul>
+  <script src="js/jquery-1.11.0.min.js"></script>
+  <script>
+    $('#toggleBtn>li').bind('click', function () {
+      console.log($(this).index());
+      var nIndex = $(this).index()
+      $('#con').html(nIndex+1)
+      $(this).siblings().show().end().hide()
+    })
+  </script>
+</body>
+
+</html>
