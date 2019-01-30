@@ -1,0 +1,578 @@
+.no-wrap {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.red {
+  color: #ed0f1d !important
+}
+
+.orange {
+  color: #d6b087;
+}
+
+.width-half {
+  float: left;
+  width: 50%;
+}
+
+.investor-list,
+.news-list,
+.project-detail {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px;
+  box-sizing: border-box;
+  background: #fff;
+  overflow: hidden;
+}
+
+.project-detail {
+  padding: 0;
+}
+
+.page-bg {
+  width: 100%;
+  background: #f5f5f5;
+  padding-top: 20px;
+}
+
+/* 二级页共用 title begin */
+.page-common .tit {
+  font-size: 20px;
+  line-height: 40px;
+  color: #242424;
+  border-bottom: 3px solid transparent;
+}
+
+.page-common .tit a {
+  padding-left: 20px;
+  padding-right: 20px;
+
+  display: inline-block;
+}
+
+.page-common .tit .active {
+  color: #b80914;
+  border-bottom: 2px solid #b80914
+}
+
+/* 二级页共用 title end  */
+/* 投资人名录 begin*/
+.investor-list-wrap {
+  width: 100%;
+  background: url('../img/20190105010.jpg') no-repeat top center;
+  padding-top: 312px;
+}
+
+.investor-list .logo-name {
+  margin-bottom: 15px;
+  margin-top: 50px;
+}
+
+.investor-list .investor-list-item {
+  box-sizing: border-box;
+}
+
+.investor-list .investor-list-item:nth-child(2n+1) {
+  padding-right: 20px;
+}
+
+.investor-list .investor-list-item:nth-child(2n) {
+  padding-left: 20px;
+}
+
+.investor-list .logo-name .logo {
+  float: left;
+  display: table-cell;
+  vertical-align: middle;
+  border: 1px solid #ddd;
+  width: 205px;
+  height: 75px;
+  text-align: center;
+  line-height: 75px;
+}
+
+.investor-list .logo-name .logo img {
+  max-height: 70px;
+}
+
+
+.investor-list .logo-name h5 {
+  float: left;
+  font-size: 18px;
+  color: #323232;
+  font-weight: bold;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.investor-list .investor-list-item .intro {
+  color: #666;
+  font-size: 14px;
+  line-height: 28px;
+  background: #f2f2f2;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: justify;
+}
+
+.investor-list .investor-list-item .intro p {
+  text-indent: 2em;
+}
+
+/* 投资人名录 end*/
+/* 项目详情 begin*/
+.project-detail .title {
+  width: 98%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #e7e7e7;
+  padding-bottom: 30px;
+  margin: 20px auto 0;
+}
+
+.project-detail .title h5 {
+  border-left: 5px solid #ed0f1d;
+  padding-left: 15px;
+  font-size: 24px;
+}
+
+.project-detail .title .search input {
+  border: 1px solid #ed0f1d;
+  padding: 10px 20px;
+  line-height: 14px;
+  box-sizing: border-box;
+  width: 325px;
+  float: left;
+}
+
+.project-detail .title .search button {
+  width: 150px;
+  background: #ed0f1d;
+  border: 1px solid #ed0f1d;
+  color: #fff;
+  font-size: 16px;
+  line-height: 39px;
+  float: right;
+}
+
+.project-detail .goods {
+  width: 98%;
+  margin: 50px auto 0;
+  padding-bottom: 50px;
+  border-bottom: 1px solid #f5f5f5;
+}
+
+.project-detail .goods .thum {
+  background: #f1f1f1;
+  border-radius: 5px;
+  padding: 6px;
+  box-sizing: border-box;
+}
+
+.project-detail .goods .intro {
+  box-sizing: border-box;
+  padding-left: 55px;
+  position: relative;
+}
+
+.project-detail .goods .intro h5 {
+  font-size: 22px;
+  color: #242424;
+  margin-bottom: 10px;
+}
+
+.project-detail .goods .basic span {
+  padding-left: 25px;
+  margin-right: 40px;
+  color: #666;
+}
+
+.project-detail .goods .basic .count {
+  background: url('../img/20190105008.jpg') no-repeat left center;
+}
+
+.project-detail .goods .basic .date {
+  background: url('../img/20190105009.jpg') no-repeat left center;
+}
+
+.project-detail .goods .info {
+  margin-top: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 450px;
+}
+
+.project-detail .goods .info .price {
+  font-size: 18px;
+  font-weight: bold;
+  color: #323232
+}
+
+.project-detail .goods .info .name {
+  color: #999999;
+  font-size: 14px;
+  text-align: center;
+}
+
+.project-detail .follow {
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 16px;
+  line-height: 24px;
+  color: #999999;
+  text-align: center;
+}
+
+.project-detail .progress {
+  color: #999;
+  margin-top: 20px;
+  width: 55%;
+  background: #e9e9e9;
+  border-radius: 20px;
+  height: 10px;
+  box-shadow: 0 5px 4px -6px #aaa;
+  overflow: visible;
+  position: relative;
+}
+
+.project-detail .progress .progress_bar {
+  float: left;
+  width: 0;
+  height: 100%;
+  font-size: 12px;
+  line-height: 20px;
+  color: #fff;
+  text-align: center;
+  background-color: #337ab7;
+  -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .15);
+  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, .15);
+  -webkit-transition: width .6s ease;
+  -o-transition: width .6s ease;
+  transition: width .6s ease;
+  border-radius: 20px;
+  position: relative;
+  animation: animate-positive 2s;
+  background: linear-gradient(to right, #017afc 35%, #1ddbfe 68%);
+}
+
+.project-detail .progress .progress_value {
+  display: block;
+  font-size: 13px;
+  color: #999;
+  border-radius: 4px;
+  padding: 3px 8px;
+  position: absolute;
+  top: -10px;
+  right: -50px;
+}
+
+.project-detail .detail {
+  background: #f5f5f5;
+}
+
+.project-detail .detail .detail-info {
+  background: #fff;
+  padding-bottom: 100px;
+}
+
+.project-detail .detail .tab-title {
+  border-bottom: 1px solid #f5f5f5;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  padding-left: 30px;
+}
+
+.project-detail .detail .tab-title li {
+  float: left;
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: bold;
+  color: #242424;
+  width: 80px;
+  text-align: center;
+  border-bottom: 2px solid transparent;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.project-detail .detail .tab-title li.active {
+  color: #ed0f1d;
+  border-bottom: 2px solid #ed0f1d;
+}
+
+.project-detail .detail .tab-box {
+  padding: 20px 40px;
+  line-height: 28px;
+}
+
+.project-detail .detail .tab-con .intro {
+  font-size: 16px;
+  color: #242424;
+  margin-bottom: 20px;
+}
+
+.project-detail .detail .tab-con div {
+
+  font-size: 14px;
+  line-height: 28px;
+  margin-top: 20px;
+}
+
+.project-detail .detail .tab-con div p {
+  color: #555;
+}
+
+.project-detail .detail-data {
+  background: #f5f5f5;
+  padding-left: 15px;
+  padding-top: 20px;
+  box-sizing: border-box;
+}
+
+.project-detail .detail-data-con {
+  background: #fff;
+  padding: 25px 15px 40px;
+}
+
+.project-detail .detail-data-con .thumb {
+  width: 80px;
+  height: 80px;
+  border: 1px solid #323232;
+  border-radius: 50%;
+  margin: 0 auto;
+  text-align: center;
+  overflow: hidden;
+}
+
+.project-detail .detail-data-con .btn {
+  width: 130px;
+  height: 46px;
+  background: linear-gradient(to right bottom, #f54248, #fa7939);
+  font-size: 16px;
+  margin: 60px auto 0;
+  border-radius: 8px;
+  text-align: center;
+  line-height: 46px;
+  border: 0;
+}
+
+.project-detail .detail-data-con .btn a {
+  color: #fff;
+}
+
+.project-detail .detail-data-con .name {
+  font-size: 16px;
+  font-weight: bold;
+  border-bottom: 1px solid #ddd;
+  line-height: 36px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.project-detail .detail-data-con .info p {
+  font-size: 14px;
+  color: #666;
+  line-height: 28px;
+}
+
+/* ================================================ 项目详情 end ================================================*/
+/* ================================================ 新闻列表 begin ================================================*/
+.news-list-wrap {
+  width: 100%;
+  background: url('../img/20190105001.jpg') no-repeat top center;
+  padding-top: 312px;
+}
+
+.news-list h4 a:hover {
+  text-decoration: underline;
+}
+
+.news-list .newslist-tab {
+  margin-top: 34px;
+}
+
+.news-list .tab-img {
+  position: relative;
+  padding-left: 0;
+  overflow: hidden;
+}
+
+.news-list .tab-img .img a {
+  text-align: center;
+  display: inline-block;
+}
+.news-list .tab-img .img a img{
+    height:100%;
+}
+
+.news-list .tab-img .my-slides a {
+  display: inline-block;
+}
+
+.news-list .tab-img .name {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  color: #fff;
+  font-size: 16px;
+  z-index: 99;
+}
+
+
+.news-list .tab-img .name a {
+  color: #fff;
+  position: relative;
+  padding-left: 20px;
+  z-index: 100;
+  width: 80%;
+}
+
+.news-list .tab-img .shadom {
+  position: absolute;
+  background: rgba(184, 9, 20, 0.4);
+  top: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 99;
+}
+
+.news-list .tab-img .dot {
+  position: absolute;
+  z-index: 104;
+  bottom: 20px;
+  right: 20px;
+}
+
+.news-list .tab-img .dot li {
+  width: 10px;
+  height: 10px;
+  background: #fff;
+  border-radius: 5px;
+  float: left;
+  margin-left: 5px;
+}
+
+.news-list .tab-img .dot li:hover {
+  cursor: pointer;
+}
+
+.news-list .tab-img .dot li.active {
+  background: #fff;
+  width: 20px;
+}
+
+.news-list .newslist-tab .tab-con {
+  padding-left: 15px;
+  box-sizing: border-box;
+}
+
+.news-list .tab-con li {
+  background: #f2f2f2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 115px;
+  margin-bottom: 10px;
+}
+
+.news-list .tab-con li:last-child {
+  margin-bottom: 0px;
+}
+
+.news-list .tab-con .date {
+  background: linear-gradient(to right bottom, #f64946, #fa753a);
+  text-align: center;
+  color: #fff;
+  height: 100%;
+  vertical-align: middle;
+  position: relative;
+  line-height: 30px
+}
+
+.news-list .tab-con .date div {
+  height: 50px;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.news-list .tab-con .date .month {
+  font-size: 16px;
+}
+
+.news-list .tab-con .date .day {
+  font-size: 36px
+}
+
+.news-list .tab-con .intro {
+  padding-left: 20px;
+  box-sizing: border-box;
+}
+
+.news-list .tab-con .intro h4 {
+  font-size: 18px;
+  color: #323232;
+  margin: 0;
+  line-height: 36px;
+}
+
+.news-list .tab-con .intro p {
+  font-size: 14px;
+  color: #666666;
+}
+
+.news-list-con li {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-top: 50px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.news-list-con li .news-info {
+  padding-left: 40px;
+}
+
+.news-list-con li h4 {
+  color: #323232;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.news-list-con li p,
+.news-list-con li .news-date {
+  font-size: 14px;
+  line-height: 28px;
+  color: #666;
+}
+
+
+
+@media screen and (max-width:600px) {
+		.width-half {
+	    float: left;
+	    width: 100%;
+	}
+	.project-detail .detail .tab-title li {
+	    margin-left: 5px;
+	    margin-right: 5px;
+	}
+	.news-list-con li {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    }
+}
+
+
